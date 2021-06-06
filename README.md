@@ -37,7 +37,7 @@ Here's what you need
 4. It must contained some embedded R code that gets run when slidifying the document
 
 
-**[Presentation Link Here](https://github.com/ckushaan/ShinyApp/tree/main/)**
+**[Presentation Link Here](https://ckushaan.github.io/ShinyApp/SlidyPres.html)**
 
 ### BMI Computation
 ``` 
