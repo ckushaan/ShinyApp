@@ -17,7 +17,7 @@ This peer assessed assignment has two parts. First, you will create a Shiny appl
 4. You must also include enough documentation so that a novice user could use your application.
 5. The documentation should be at the Shiny website itself. Do not post to an external link.
 
-**[App Link Here](https://www.shinyapps.io/admin/#/application/4233839)**
+**[App Link Here](https://kushsarathchandra.shinyapps.io/BMIShinyApp/?_ga=2.235496385.1949255791.1622956681-1689551178.1622956681)**
 
 ## Pitch Presentation
 
