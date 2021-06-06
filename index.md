@@ -17,6 +17,8 @@ This peer assessed assignment has two parts. First, you will create a Shiny appl
 4. You must also include enough documentation so that a novice user could use your application.
 5. The documentation should be at the Shiny website itself. Do not post to an external link.
 
+**[App Link Here](url)**
+
 ## Pitch Presentation
 
 5 slides (inclusive of the title slide)  to pitch a your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
@@ -35,7 +37,7 @@ Here's what you need
 4. It must contained some embedded R code that gets run when slidifying the document
 
 
-**[Link](url)**
+**[Presentation Link Here](url)**
 
 ```
 Code Goes Here
