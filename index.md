@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Shiny Application and Reproducible Pitch
 
-You can use the [editor on GitHub](https://github.com/ckushaan/ShinyApp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Shiny Application
 
-### Markdown
+1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+2. Deploy the application on Rstudio's shiny server
+3. Share the application link by pasting it into the provided text box
+4. Share your server.R and ui.R code on githu
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The application must include the following:
 
-```markdown
-Syntax highlighted code block
+1. Some form of input (widget: textbox, radio button, checkbox, ...)
+2. Some operation on the ui input in sever.R
+3. Some reactive output displayed as a result of server calculations
+4. You must also include enough documentation so that a novice user could use your application.
+5. The documentation should be at the Shiny website itself. Do not post to an external link.
 
-# Header 1
-## Header 2
-### Header 3
+## Pitch Presentation
 
-- Bulleted
-- List
+5 slides (inclusive of the title slide)  to pitch a your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
 
-1. Numbered
-2. List
+Here's what you need
 
-**Bold** and _Italic_ and `Code` text
+1. 5 slides to pitch our idea done in Slidify or Rstudio Presenter
+2. Your presentation pushed to github or Rpubs
+3. A link to your github or Rpubs presentation pasted into the provided text box
 
-[Link](url) and ![Image](src)
+### Your presentation must satisfy the following
+
+1. It must be done in Slidify or Rstudio Presenter
+2. It must be 5 pages
+3. It must be hosted on github or Rpubs
+4. It must contained some embedded R code that gets run when slidifying the document
+
+
+**[Link](url)**
+
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ckushaan/ShinyApp/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Code Goes Here
