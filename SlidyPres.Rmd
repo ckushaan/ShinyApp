@@ -1,0 +1,64 @@
+---
+title: "Peer Graded Assignment Shiny App"
+author: "Kushan Sarathchandra"
+date: "06/06/2021"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Project Criteria
+
+1. Write a shiny application with associated supporting documentation.
+2. The documentation should be thought of as whatever a user will need to get started using your application.
+3. Deploy the application on Rstudio's shiny server
+4. Share the application link by pasting it into the provided text box
+5. Share your server.R and ui.R code on github
+
+## Project Overview
+
+The ShinyApp is an online BMI calculator for height and weight of a person.
+
+The files are available at Github Repository https://github.com/ckushaan/ShinyApp/tree/main/
+
+This app is deployed here: https://kushsarathchandra.shinyapps.io/BMIShinyApp/
+
+## Application Panels
+
+SIDE PANEL:
+
+Input parameters for weight, height and type of measurement.
+
+MAIN PANEL:
+
+Contains 3 tabs;
+1. Displaying the calculated BMI
+2. BMI Chart that users could refer to.
+3. Further details about BMI in general
+
+## Application Widgets
+
+- selectInput for measurement: A box with 2 choices to select from, namely "kg vs. cm" and "lb vs. inches"
+- numericInput for weight: A field to enter weight
+- numericInput for height: A field to enter height
+- actionButton for calculation: An Action Button to calculate
+
+### BMI Computation
+``` 
+    observe({
+        input$action_Calc
+        if(input$select_measure==1) {
+            values$bmi <- isolate({
+               input$num_weight / ((input$num_height/100) *(input$num_height/100)) })
+        } else  {
+            values$bmi <- isolate({
+                input$num_weight / (input$num_height *input$num_height)*703 })}})
+```
+
+## Submission and Conclusion
+The user can select the measurement type and enter their respective weight and height.
+On clicking the **Show Me button** the BMI is displayed on the Main Panel. The BMI Chart tab can be used for reference if needed,
+
+
